@@ -29,14 +29,14 @@ class MyHomePage extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color.fromARGB(255, 185, 121, 241),
-              Color.fromARGB(255, 238, 180, 210),
-              Color.fromARGB(255, 245, 233, 210)
-            ],
-            tileMode: TileMode.repeated),
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [
+            Color.fromARGB(255, 185, 121, 241),
+            Color.fromARGB(255, 238, 180, 210),
+            Color.fromARGB(255, 245, 233, 210)
+          ],
+        ),
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
